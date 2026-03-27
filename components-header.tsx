@@ -9,10 +9,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useLanguage } from '@/context/LanguageContext';
-import { useCart } from '@/context/CartContext';
-import { useAuth } from '@/context/AuthContext';
-import LanguageToggle from './LanguageToggle';
+import { useLanguage, useCart, useAuth } from './contexts';
+import LanguageToggle from './components-products';
 
 export default function Header() {
   const { language, t } = useLanguage();
