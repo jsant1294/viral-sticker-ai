@@ -1,0 +1,66 @@
+{
+  "name": "viralstickerai",
+  "version": "1.0.0",
+  "description": "AI-assisted e-commerce platform for stickers, DTF apparel, and sublimation products",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "type-check": "tsc --noEmit",
+    "db:push": "supabase db push",
+    "db:pull": "supabase db pull"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^2.4.0",
+    "@stripe/stripe-js": "^1.46.0",
+    "@supabase/auth-helpers-nextjs": "^0.8.5",
+    "@supabase/supabase-js": "^2.38.4",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.2",
+    "clsx": "^2.0.0",
+    "date-fns": "^2.30.0",
+    "next": "^14.2.35",
+    "next-intl": "^3.0.0",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "stripe": "^13.6.0",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.3.3",
+    "zod": "^3.22.4",
+    "zustand": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "^14.0.3",
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.0",
+    "tailwindcss": "^3.3.6"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "ecommerce",
+    "stickers",
+    "dtf",
+    "sublimation",
+    "ai",
+    "nextjs",
+    "stripe",
+    "supabase",
+    "bilingual"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
