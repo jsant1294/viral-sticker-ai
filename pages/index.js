@@ -1,8 +1,18 @@
+import dynamic from 'next/dynamic';
+import Header from '../components-header';
+import Products from '../components-products';
+import Checkout from '../components-checkout';
+import Help from '../components-help';
+
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to Viral Sticker AI!</h1>
-      <p>Your Next.js app is set up and ready to go.</p>
+      <Header />
+      <main style={{ padding: '2rem 0' }}>
+        <Products />
+        <Checkout />
+      </main>
+      <Help />
     </div>
   );
 }
