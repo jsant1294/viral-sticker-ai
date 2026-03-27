@@ -212,7 +212,7 @@ function CartItemRow({ item, language, onRemove, onUpdateQuantity }: CartItemRow
 
 'use client';
 
-import React, { useState } from 'react';
+// Duplicate import removed
 import { useLanguage } from '@/context/LanguageContext';
 import type { Address } from '@/types';
 
