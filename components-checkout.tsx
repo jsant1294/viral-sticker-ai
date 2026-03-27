@@ -5,7 +5,7 @@
  */
 
 
-'use client';
+// 'use client' directive already at the top
 
 import React, { useState } from 'react';
 import Link from 'next/link';

@@ -79,7 +79,7 @@ export default function LanguageToggle() {
 
 // Duplicate 'use client' directive removed
 
-import React, { useState } from 'react';
+// Duplicate import removed
 import Image from 'next/image';
 import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
