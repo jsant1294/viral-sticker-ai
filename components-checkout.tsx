@@ -4,7 +4,7 @@
  * Displays cart items, totals, and checkout button
  */
 
-'use client';
+// 'use client' directive is already at the top
 
 import React, { useState } from 'react';
 import Link from 'next/link';
