@@ -213,7 +213,7 @@ function CartItemRow({ item, language, onRemove, onUpdateQuantity }: CartItemRow
 'use client';
 
 // Duplicate import removed
-import { useLanguage } from '@/context/LanguageContext';
+// Duplicate import removed
 import type { Address } from '@/types';
 
 interface ShippingFormProps {
