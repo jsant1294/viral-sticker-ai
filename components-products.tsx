@@ -1,10 +1,10 @@
+
+'use client';
 // components/layout/LanguageToggle.tsx
 /**
  * Language Toggle Component (EN/ES)
  * Compact selector for switching between English and Spanish
  */
-
-'use client';
 
 import React, { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
