@@ -1,5 +1,5 @@
 
-'use client';
+// 'use client' directive is already at the top
 // components/layout/LanguageToggle.tsx
 /**
  * Language Toggle Component (EN/ES)
@@ -77,7 +77,7 @@ export default function LanguageToggle() {
  * Displays individual product in grid with image, name, price, and add to cart
  */
 
-'use client';
+// Duplicate 'use client' directive removed
 
 import React, { useState } from 'react';
 import Image from 'next/image';
